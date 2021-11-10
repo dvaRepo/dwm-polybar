@@ -5,3 +5,4 @@ libxft-dev
 fonts-font-awesome
 make
 cmake
+gdebi
