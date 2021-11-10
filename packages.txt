@@ -3,3 +3,5 @@ tar
 fonts-noto-color-emoji
 libxft-dev
 fonts-font-awesome
+make
+cmake
