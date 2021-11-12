@@ -1,3 +1,4 @@
+autoconf
 unzip
 tar
 fonts-noto-color-emoji
