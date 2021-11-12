@@ -17,3 +17,4 @@ picom
 build-essential
 linux-headers-amd64
 wget
+libxft
