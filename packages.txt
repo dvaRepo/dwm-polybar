@@ -13,7 +13,6 @@ x11-xserver-utils
 libxinerama-dev
 libfontconfig1
 libx11-6
-lib
 picom
 build-essential
 linux-headers-amd64
