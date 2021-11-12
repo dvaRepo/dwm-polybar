@@ -1,5 +1,17 @@
+user=$(whoami)
+
 # install packages
-xarg -a packages.txt sudo apt install -y
+xargs -a packages.txt sudo apt install -y
+
+# copy dwmbar, battery, and wall files to /bin/
+cd bin
+chmod +x dwmbar
+chmod +x battery
+chmod +x wall
+cp dwmbar /bin/dwmbar
+cp battery /bin/battery
+cp wall   /bin/wall
+cd ..
 
 
 # fonts
