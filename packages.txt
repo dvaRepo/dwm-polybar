@@ -6,3 +6,14 @@ fonts-font-awesome
 make
 cmake
 gdebi
+xserver-xorg-video-intel
+xorg 
+xserver-xorg-dev
+x11-xserver-utils
+libxinerama-dev
+libfontconfig1
+libx11-6
+lib
+picom
+build-essential
+linux-headers-amd64
