@@ -13,6 +13,8 @@ cp battery /bin/battery
 cp wall   /bin/wall
 cd ..
 
+cp .xinitrc /home/$user/.xinitrc
+
 
 # fonts
 # make an ubuntu font folder
