@@ -3,6 +3,9 @@ user=$(whoami)
 # install necessary packages for Virtm Manager(KVM)
 sudo apt install install qemu-kvm libvirt-daemon  bridge-utils virtinst libvirt-daemon-system install virt-top libguestfs-tools libosinfo-bin  qemu-system virt-manager
 
+# start default network 
+virsh net-autostart default
+virsh net-start default
 
 # enable Virtual Manger (KVM)
 #sudo systemctl enable libvirtd.service
