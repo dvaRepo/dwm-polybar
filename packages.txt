@@ -1,4 +1,5 @@
 autoconf
+automake
 unzip
 tar
 fonts-noto-color-emoji
@@ -8,14 +9,17 @@ make
 cmake
 gdebi
 xserver-xorg-video-intel
+xutils-dev
 xorg 
 xserver-xorg-dev
 x11-xserver-utils
 libxinerama-dev
 libfontconfig1
 libx11-6
+libtool
 picom
 build-essential
 linux-headers-amd64
 wget
 libxft2
+feh
