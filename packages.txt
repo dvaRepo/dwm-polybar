@@ -28,3 +28,4 @@ thunar
 libimlib2
 pulseaudio-utils
 curl
+pipewire-audio-client-libraries
