@@ -30,3 +30,6 @@ libimlib2
 pulseaudio-utils
 curl
 pipewire-audio-client-libraries
+pkg-config
+fontconfig
+libfontconfig-dev
