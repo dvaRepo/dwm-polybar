@@ -27,3 +27,4 @@ feh
 thunar
 libimlib2
 pulseaudio-utils
+curl
