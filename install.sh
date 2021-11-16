@@ -13,6 +13,8 @@ cp battery /bin/battery
 cp wall   /bin/wall
 cd ..
 
+cp -av Pictures /home/$user/Pictures
+
 cp .xinitrc /home/$user/.xinitrc
 
 
