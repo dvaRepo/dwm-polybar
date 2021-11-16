@@ -3,6 +3,10 @@ user=$(whoami)
 # install packages
 xargs -a packages.txt sudo apt install -y
 
+
+#gen 8 intel and newer
+# sudo apt install intel-media-va-driver-non-free libva-drm2 libva-x11-2
+
 # copy dwmbar, battery, and wall files to /bin/
 cd bin
 chmod +x dwmbar
