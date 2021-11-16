@@ -16,6 +16,14 @@ cd ..
 cp .xinitrc /home/$user/.xinitrc
 
 
+# libxft-bgra, support for color emoji
+git clone https://github.com/ra-c/libxft-bgra-debian.git
+cd libxft-bgra-debian
+./configure
+make
+sudo make install
+cd ..
+
 # fonts
 # make an ubuntu font folder
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
@@ -33,3 +41,4 @@ cd ..
 rm *.zip
 # remove all folders beginning with "ubuntu-font-family"
 rm -r ubuntu-font-family*
+
