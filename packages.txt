@@ -26,3 +26,4 @@ libxft2
 feh
 thunar
 libimlib2
+pulseaudio-utils
