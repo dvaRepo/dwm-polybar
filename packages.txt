@@ -3,8 +3,9 @@ automake
 unzip
 tar
 fonts-noto-color-emoji
-libxft-dev
 fonts-font-awesome
+fonts-dejavu
+fonts-fork-awesome
 make
 cmake
 gdebi
