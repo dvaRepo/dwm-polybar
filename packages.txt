@@ -15,6 +15,7 @@ xorg
 xserver-xorg-dev
 x11-xserver-utils
 libxrandr-dev
+libimlib2-dev
 libxinerama-dev
 libfontconfig1
 libx11-6
