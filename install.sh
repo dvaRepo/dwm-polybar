@@ -2,7 +2,7 @@ user=$(whoami)
 
 # install packages
 xargs -a packages.txt sudo apt install -y
-
+sudo apt install x11-xserver-utils
 
 #gen 8 intel and newer
 # sudo apt install intel-media-va-driver-non-free libva-drm2 libva-x11-2
