@@ -3,7 +3,9 @@ user=$(whoami)
 # install packages
 xargs -a packages.txt sudo apt install -y
 sudo apt install x11-xserver-utils
-
+wget https://github.com/Ulauncher/Ulauncher/releases/download/5.14.2/ulauncher_5.14.2_all.deb
+sudo dpkg -i ulauncher_5.14.2_all.deb
+rm ulauncher_5.14.2_all.deb
 #gen 8 intel and newer
 # sudo apt install intel-media-va-driver-non-free libva-drm2 libva-x11-2
 
