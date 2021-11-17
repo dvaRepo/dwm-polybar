@@ -11,3 +11,7 @@ cd Reversal-icon-theme/
 ./install.sh -blue
 cd ..
 rm -r Reversal-icon-theme
+
+user=$(whoami)
+
+cp settings.ini /home/$user/.config/gtk-3.0/
