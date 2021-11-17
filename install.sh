@@ -48,3 +48,5 @@ rm *.zip
 # remove all folders beginning with "ubuntu-font-family"
 rm -r ubuntu-font-family*
 
+
+sudo apt --fix-broken install
