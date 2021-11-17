@@ -17,9 +17,9 @@ cd bin
 chmod +x dwmbar
 chmod +x battery
 chmod +x wall
-cp dwmbar /bin/dwmbar
-cp battery /bin/battery
-cp wall   /bin/wall
+sudo cp dwmbar /bin/dwmbar
+sudo cp battery /bin/battery
+sudo cp wall   /bin/wall
 cd ..
 
 cp -av Pictures /home/$user/Pictures
