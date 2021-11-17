@@ -1,3 +1,4 @@
+#! /bin/bash
 user=$(whoami)
 
 # install packages
