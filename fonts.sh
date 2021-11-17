@@ -1,3 +1,4 @@
+#! /bin/bash
 # fonts
 # make an ubuntu font folder
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
