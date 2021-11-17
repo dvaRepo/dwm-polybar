@@ -1,1 +1,15 @@
+
+sudo apt install linux-headers-$(uname -r) gcc make acpid dkms libglvnd-core-dev libglvnd0 libglvnd-dev dracut
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+
+
+# Edit /etc/default/grub
+# Append ‘rd.driver.blacklist=nouveau’ to end of ‘GRUB_CMDLINE_LINUX=”…”‘.
+
+## Example row on Debian ##
+GRUB_CMDLINE_LINUX_DEFAULT="quiet rd.driver.blacklist=nouveau"
+
+## OR with Ubuntu and Linux Mint ##
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash rd.driver.blacklist=nouveau"
+
 wget https://us.download.nvidia.com/XFree86/Linux-x86_64/470.86/NVIDIA-Linux-x86_64-470.86.run
