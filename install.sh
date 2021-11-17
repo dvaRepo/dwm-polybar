@@ -3,10 +3,13 @@ user=$(whoami)
 # install packages
 xargs -a packages.txt sudo apt install -y
 sudo apt install x11-xserver-utils
+
+# ulauncher
 wget https://github.com/Ulauncher/Ulauncher/releases/download/5.14.2/ulauncher_5.14.2_all.deb
 sudo dpkg -i ulauncher_5.14.2_all.deb
 rm ulauncher_5.14.2_all.deb
-#gen 8 intel and newer
+sudo apt --fix-broken install
+# gen 8 intel and newer
 # sudo apt install intel-media-va-driver-non-free libva-drm2 libva-x11-2
 
 # copy dwmbar, battery, and wall files to /bin/
@@ -50,5 +53,22 @@ rm *.zip
 # remove all folders beginning with "ubuntu-font-family"
 rm -r ubuntu-font-family*
 
-
-sudo apt --fix-broken install
+# make Font Awesome font folders
+sudo mkdir /usr/share/fonts-font-awesome
+sudo mkdir /usr/share/fonts/opentype/font-awesome
+sudo mkdir /usr/share/fonts/svg/font-awesome
+# download and extract font-awesome font
+wget https://github.com/FortAwesome/Font-Awesome/releases/download/5.15.4/fontawesome-free-5.15.4-desktop.zip
+unzip fontawesome-free-5.15.4-desktop.zip
+# move the extracted font to the folder created before
+cd fontawesome-free-5.15.4-desktop/
+sudo mv * /usr/share/fonts-font-awesome
+cd otfs/
+sudo mv *.otf /usr/share/fonts/opentype/font-awesome
+cd ..
+cd svgs/
+sudo mv * /usr/share/fonts/svg/font-awesome
+# clean up
+cd ..
+cd ..
+rm -r fontawesome-free*
