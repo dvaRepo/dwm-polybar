@@ -3,7 +3,6 @@ automake
 unzip
 tar
 fonts-noto-color-emoji
-fonts-font-awesome
 fonts-dejavu
 fonts-fork-awesome
 make
