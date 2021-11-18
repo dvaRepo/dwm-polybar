@@ -33,5 +33,3 @@ pipewire-audio-client-libraries
 pkg-config
 fontconfig
 libfontconfig-dev
-xfce4-settings
-xfce4-power-manager
