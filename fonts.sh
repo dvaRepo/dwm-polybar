@@ -26,13 +26,14 @@ wget https://github.com/FortAwesome/Font-Awesome/releases/download/5.15.4/fontaw
 unzip fontawesome-free-5.15.4-desktop.zip
 # move the extracted font to the folder created before
 cd fontawesome-free-5.15.4-desktop/
-sudo mv * /usr/share/fonts-font-awesome
 cd otfs/
-sudo mv *.otf /usr/share/fonts/opentype/font-awesome
+sudo cp -r *.otf /usr/share/fonts/opentype/font-awesome
 cd ..
 cd svgs/
-sudo mv * /usr/share/fonts/svg/font-awesome
+sudo cp -r * /usr/share/fonts/svg/font-awesome
+cd ..
+sudo cp -r * /usr/share/fonts-font-awesome
 # clean up
 cd ..
-cd ..
 rm -r fontawesome-free*
+
