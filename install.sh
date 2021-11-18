@@ -35,3 +35,11 @@ cd libxft-bgra-debian
 make
 sudo make install
 cd ..
+
+# crete default directories in home
+xdg-user-dirs-update
+
+# make the other scripts executable
+chmod +x install-brave
+chmod +x themes.sh
+chmod +x fonts.sh
