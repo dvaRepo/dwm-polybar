@@ -35,3 +35,4 @@ fontconfig
 libfontconfig-dev
 dbus-x11
 blueman
+libspa-0.2-bluetooth
