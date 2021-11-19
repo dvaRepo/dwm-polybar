@@ -33,3 +33,5 @@ pipewire-audio-client-libraries
 pkg-config
 fontconfig
 libfontconfig-dev
+dbus-x11
+blueman
