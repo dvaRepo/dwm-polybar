@@ -43,3 +43,5 @@ xdg-user-dirs-update
 chmod +x install-brave
 chmod +x themes.sh
 chmod +x fonts.sh
+
+rm -r libxft-bgra-debian
