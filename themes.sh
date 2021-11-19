@@ -14,4 +14,5 @@ rm -r Reversal-icon-theme
 
 user=$(whoami)
 
+mkdir /home/$user/.config/gtk-3.0/
 cp settings.ini /home/$user/.config/gtk-3.0/
