@@ -62,7 +62,7 @@ picom --experimental-backends &
 
 # Wallpaper
 
-feh --bg-scale /home/rad/Pictures/forest1.jpg
+feh --bg-scale /home/rad/Pictures/wallpaper.jpg
 
 # Loop
 while true; do 
