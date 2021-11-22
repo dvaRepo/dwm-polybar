@@ -51,7 +51,8 @@ fi
 # nvidia
 
 # prime-offload &
-
+# if GTK apps start slowly uncoment the below line
+# dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 # DWM status
 
 dwmbar &
