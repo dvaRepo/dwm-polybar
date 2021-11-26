@@ -4,3 +4,7 @@ libxcb-icccm4-dev
 libxcb-ewmh-dev
 libxcb-util-dev
 python3-xcbgen
+libyajl-dev
+libjsoncpp-dev
+libcairo2-dev
+libiw-dev
