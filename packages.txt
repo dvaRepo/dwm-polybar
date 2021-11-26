@@ -21,6 +21,8 @@ libx11-6
 libtool
 libyajl-dev
 libjsoncpp-dev
+libcairo2-dev
+libiw-dev
 picom
 build-essential
 linux-headers-amd64
