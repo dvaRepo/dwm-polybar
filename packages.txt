@@ -20,7 +20,7 @@ libfontconfig1
 libx11-6
 libtool
 libyajl-dev
-libjsoncpp
+libjsoncpp-dev
 picom
 build-essential
 linux-headers-amd64
