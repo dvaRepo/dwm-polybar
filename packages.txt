@@ -10,7 +10,13 @@ cmake
 gdebi
 xserver-xorg-video-intel
 xutils-dev
-xorg 
+xorg
+xcb-proto
+xcb
+libxcb-icccm4-dev
+libxcb-ewmh-dev
+libxcb-util-dev
+python3-xcbgen
 xserver-xorg-dev
 x11-xserver-utils
 libxrandr-dev
