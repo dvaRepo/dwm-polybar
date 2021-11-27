@@ -8,3 +8,4 @@ libyajl-dev
 libjsoncpp-dev
 libcairo2-dev
 libiw-dev
+unifont
