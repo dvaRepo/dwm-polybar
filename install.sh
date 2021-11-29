@@ -1,6 +1,11 @@
 #! /bin/bash
 user=$(whoami)
 
+# install weather font
+sudo apt install npm
+npm install weather-icons-npm
+sudo apt autorempve npm
+
 # install packages
 xargs -a packages.txt sudo apt install -y
 sudo apt install x11-xserver-utils
