@@ -33,6 +33,7 @@ pulseaudio-utils
 curl
 pipewire-audio-client-libraries
 pkg-config
+pavucontrol
 fontconfig
 libfontconfig-dev
 dbus-x11
