@@ -5,6 +5,7 @@ tar
 fonts-noto-color-emoji
 fonts-dejavu
 fonts-fork-awesome
+firmware-sof-signed
 make
 cmake
 gdebi
