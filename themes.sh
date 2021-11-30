@@ -16,3 +16,10 @@ user=$(whoami)
 
 mkdir /home/$user/.config/gtk-3.0/
 cp settings.ini /home/$user/.config/gtk-3.0/
+
+
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+cd WhiteSur-gtk-theme/
+./install.sh -c dark -t blue -i debian
+cd ..
+rm -rf WhiteSur-gtk-theme/
