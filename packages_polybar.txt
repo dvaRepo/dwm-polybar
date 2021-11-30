@@ -9,4 +9,4 @@ libjsoncpp-dev
 libcairo2-dev
 libiw-dev
 libpulse-dev
-unifont
+gsimplecal
