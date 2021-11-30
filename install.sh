@@ -1,6 +1,9 @@
 #! /bin/bash
 user=$(whoami)
 
+# set correct time
+sudo timedatectl set-timezone America/Los_Angeles
+
 # install weather font
 sudo apt install npm
 npm install weather-icons-npm
