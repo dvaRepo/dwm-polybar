@@ -48,3 +48,4 @@ chmod +x themes.sh
 chmod +x fonts.sh
 
 rm -r libxft-bgra-debian
+gsettings set org.cinnamon.desktop.default-applications.terminal exec st
