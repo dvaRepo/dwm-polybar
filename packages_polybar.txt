@@ -1,5 +1,4 @@
 xcb-proto
-xcb
 libxcb-icccm4-dev
 libxcb-ewmh-dev
 libxcb-util-dev
