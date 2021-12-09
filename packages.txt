@@ -27,6 +27,7 @@ wget
 libxft2
 feh
 nemo
+nemo-fileroller
 network-manager
 libimlib2
 pulseaudio-utils
