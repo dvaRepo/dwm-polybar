@@ -11,10 +11,14 @@ sudo apt autorempve npm
 
 # install packages
 xargs -a packages.txt sudo apt install -y
-sudo apt install x11-xserver-utils
+# sudo apt install x11-xserver-utils
 
 # gen 8 intel and newer
 # sudo apt install intel-media-va-driver-non-free libva-drm2 libva-x11-2
+
+
+# crete default directories in home
+xdg-user-dirs-update
 
 # copy dwmbar, battery, and wall files to /bin/
 cd bin
@@ -31,22 +35,18 @@ cp -av Pictures /home/$user/Pictures
 
 cp .xinitrc /home/$user/.xinitrc
 
-
 # libxft-bgra, support for color emoji
-git clone https://github.com/ra-c/libxft-bgra-debian.git
-cd libxft-bgra-debian
-./configure
-make
-sudo make install
-cd ..
-
-# crete default directories in home
-xdg-user-dirs-update
+# git clone https://github.com/ra-c/libxft-bgra-debian.git
+# cd libxft-bgra-debian
+# ./configure
+# make
+# sudo make install
+# cd ..
 
 # make the other scripts executable
 chmod +x install-brave
 chmod +x themes.sh
 chmod +x fonts.sh
 
-rm -r libxft-bgra-debian
+# rm -r libxft-bgra-debian
 gsettings set org.cinnamon.desktop.default-applications.terminal exec st
