@@ -15,7 +15,7 @@ static const int usealtbar          = 1;        /* 1 means use non-dwm status ba
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *alttrayname      = "tray";    /* Polybar tray instance name */
 static const char *altbarcmd        = "$HOME/.config/polybar/launch.sh"; /* Alternate bar launch command */
-static const char *fonts[]          = { "Ubuntu Mono:size=14:antialias=true:autohide=true","Noto Color Emoji:size=12:antialias=true:autohide=true","forkawesome:size=13:antialias=true:autohide=true" };
+static const char *fonts[]          = { "Ubuntu Mono:size=14:antialias=true:autohide=true","forkawesome:size=13:antialias=true:autohide=true" };
 static const char dmenufont[]       = "Ubuntu Mono:size=14:antialias=true:autohide=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
