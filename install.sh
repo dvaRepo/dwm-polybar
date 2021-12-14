@@ -24,6 +24,7 @@ chmod +x wall
 sudo cp dwmbar /bin/dwmbar
 sudo cp battery /bin/battery
 sudo cp wall   /bin/wall
+sudo cp polybar-forecast /bin/polybar-forecast
 cd ..
 
 cp -av Pictures /home/$user/Pictures
