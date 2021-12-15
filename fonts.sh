@@ -2,9 +2,15 @@
 # fonts
 
 # install weather font
-sudo apt install npm
-npm install weather-icons-npm
-sudo apt autorempve npm
+git clone https://github.com/erikflowers/weather-icons.git
+cd weather-icons
+cd font
+sudo cp *.ttf /usr/share/fonts/truetype
+sudo cp *.woff /usr/share/fonts/woff
+sudo cp *.woff2 /usr/share/fonts/woff
+cd ..
+cd ..
+rm -r weather-icons
 # make an ubuntu font folder
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
 # download ubuntu font family
