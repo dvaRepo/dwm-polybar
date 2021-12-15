@@ -6,11 +6,3 @@ git clone https://github.com/mihirlad55/polybar-dwm-module.git
 cd polybar-dwm-module
 ./build.sh -d
 
-
-# 
-# libyajl-dev
-# 
-# 
-# 
-# 
-
