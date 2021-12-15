@@ -21,6 +21,7 @@ libfontconfig1
 libx11-6
 libtool
 libglib2.0-bin
+libyajl-dev
 picom
 build-essential
 linux-headers-amd64
