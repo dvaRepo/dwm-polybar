@@ -1,5 +1,5 @@
 # debianDWM
 
-user=$(whoami)
+1. ./polybar
+2. ./install.sh
 
-cp settings.ini to /home/$user/.config/gtk-3.0/
