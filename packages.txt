@@ -34,6 +34,8 @@ network-manager
 libimlib2
 curl
 pipewire-audio-client-libraries
+pipewire-pulse
+qjackctl
 pkg-config
 pavucontrol
 fontconfig
