@@ -15,3 +15,9 @@ cd ..
 cp -r polybar $HOME/.config/
 cp -r polybar-forecast $HOME/.config/
 cd ..
+
+cd bin
+chmod +x polybar-forecast
+sudo cp polybar-forecast /bin/
+cd ..
+
