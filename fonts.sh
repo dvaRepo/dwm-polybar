@@ -1,5 +1,10 @@
 #! /bin/bash
 # fonts
+
+# install weather font
+sudo apt install npm
+npm install weather-icons-npm
+sudo apt autorempve npm
 # make an ubuntu font folder
 sudo mkdir /usr/share/fonts/truetype/ubuntu-fonts
 # download ubuntu font family
