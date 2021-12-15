@@ -36,7 +36,24 @@ chmod +x install-brave
 chmod +x themes.sh
 chmod +x fonts.sh
 
+
+# build DWM and it's helpers
+cd dwm-6.2
+sudo make clean install
+cd ..
+cd dmenu-5.0
+sudo make clean install
+cd.. 
+cd st-0.8.4
+sudo make clean install
+cd ..
+cd slock
+sudo make clean install
+cd ..
+
+# make st default terminal for nemo
 gsettings set org.cinnamon.desktop.default-applications.terminal exec st
+
 
 # if ever decide to go to pure DWM, below is package needed to enable color emoji
 # libxft-bgra, support for color emoji
