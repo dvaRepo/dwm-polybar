@@ -55,8 +55,8 @@ fi
 # dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 # DWM status
 
-dwmbar &
-
+# dwmbar &
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY &
 # Compositor 
 picom --experimental-backends &
 
