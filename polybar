@@ -1,16 +1,16 @@
 
 
-sudo apt install libcairo2-dev libxcb-composite0-dev libxcb-radnr0-dev libxcb-icccm4-dev libxcb-ewmh-dev libxcb-util-dev
+sudo apt install libcairo2-dev libxcb-composite0-dev libxcb-radnr0-dev libxcb-icccm4-dev libxcb-ewmh-dev libxcb-util-dev libxcb-image0-dev python3-xcbgen libjsoncpp-dev libpulse-dev libiw-dev gsimplecal
 
 git clone https://github.com/mihirlad55/polybar-dwm-module.git
 cd polybar-dwm-module
 ./build.sh -d
 
 
-# python3-xcbgen
+# 
 # libyajl-dev
-# libjsoncpp-dev
-# libiw-dev
-# libpulse-dev
-# gsimplecal
+# 
+# 
+# 
+# 
 
